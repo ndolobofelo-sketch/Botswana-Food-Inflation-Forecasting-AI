@@ -731,6 +731,39 @@ Deep Learning IndabaX Botswana 2026 Hackathon
 
 
 Project developed for the VenturePulse: Food Price Inflation Forecasting Challenge.
+# Model Implementations
 
+## 1. Classical Model - XGBoost (Gradient Boosted Trees)
+
+Location:
+src/models/train_xgboost.py
+
+This classical machine learning model uses XGBoost to forecast Botswana food inflation using engineered economic indicators.
+
+Run:
+python src/models/train_xgboost.py
+
+
+## 2. Deep Learning Model - LSTM
+
+Location:
+src/deep_learning/train_lstm.py
+
+This deep learning model uses Long Short-Term Memory (LSTM) networks to capture time-series patterns and long-term dependencies.
+
+Run:
+python src/deep_learning/train_lstm.py
+
+
+## Model Evaluation
+
+Both models are compared using:
+
+- RMSE
+- Forecast accuracy
+- Residual diagnostics
+- Prediction performance
+
+The final model selection is based on validation results.
 
 
